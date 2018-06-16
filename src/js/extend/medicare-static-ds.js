@@ -17,13 +17,21 @@ function MedicareDataSource() {
  * @private
  */
 MedicareDataSource.prototype.FEATURES_ = new storeLocator.FeatureSet(
-  new storeLocator.Feature('region-YES', 'Region')
+    var rows = csv.split('\n');
+  var headings = this.parseRow_(rows[0]);
+    for (var i = 1, row; row = rows[i]; i++) {
+    row = this.toObject_(headings, this.parseRow_(row));
+        new storeLocator.Feature('region-' + row.region, 'Region Bro' + row.region),
+        //    new storeLocator.Feature('region-region2', 'Region 2'),
+        //    new storeLocator.Feature('city-city1', 'City  1'),
+        //    new storeLocator.Feature('city-city2', 'City  2')
+    }
 );
 
 /**
  * @return {!storeLocator.FeatureSet}
  */
-MedicareDataSource.prototype.getFeatures = function() {
+MedicareDataSource.prototype.getFeatures = function(csv) {
   return this.FEATURES_;
 };
 
@@ -41,6 +49,7 @@ MedicareDataSource.prototype.parse_ = function(csv) {
     row = this.toObject_(headings, this.parseRow_(row));
     var features = new storeLocator.FeatureSet;
     features.add(this.FEATURES_.getById('region-' + row.region));
+      //features.add(this.FEATURES_.getById('city-' + row.city));
 
     var position = new google.maps.LatLng(row.Ycoord, row.Xcoord);
 
