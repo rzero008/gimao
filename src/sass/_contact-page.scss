@@ -1,0 +1,381 @@
+/* Contact Us Page CSS */
+
+.manulife-contacts {
+    width: auto;
+    display: flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+    background-color: #ffffff;
+
+    #map-canvas{
+        height:100%;
+    }
+    .contacts-wrapper {
+        box-sizing: border-box;
+
+        &:nth-child(1) {
+            display: flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            flex-direction: column;
+
+            .contacts-block {
+                border-bottom: 1px solid #f1f1f1;
+
+                &:nth-child(1) {
+                    height: 19vh;
+                    padding: 40px 0 40px 60px;
+                    display: flex;
+                    display: -moz-box;
+                    display: -ms-flexbox;
+                    display: -webkit-flex;
+                    flex-direction: column;
+
+                    .contact-block-wrapper {
+
+                        display: flex;
+                        display: -moz-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        flex-direction: column;
+
+                        &:nth-child(1) {
+                            margin-bottom: 20px;
+
+                            .contacts-main-info {
+                                display: none;
+                            }
+                        }
+
+                        .contacts-thumbnail {
+                            width: 60px;
+                            height: 60px;
+                            object-fit: cover;
+                        }
+
+                        a {
+                            font-weight: bold;
+                            font-style: normal;
+                            color: #00aa59;
+                            text-decoration: none;
+                            font-size: 26px;
+                            font-stretch: normal;
+                            line-height: 1.46;
+                            letter-spacing: normal;
+                            margin-bottom: 20px;
+
+                            i {
+                                font-weight: normal;
+                                color: #34384b;
+                            }
+                        }
+
+                        .contacts-main-info {
+                            font-size: 14px;
+                            font-weight: normal;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 1.43;
+                            letter-spacing: normal;
+                            color: #34384b;
+
+                            b {
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(2) {
+                    padding: 24px 0 33px 60px;
+                    height: 2vh;
+                    .contacts-region {
+                        cursor: pointer;
+                    }
+                    .contacts-region.open-region-panel {
+                        font-size: 13px;
+                        font-weight: normal;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: 1.38;
+                        letter-spacing: normal;
+                        color: #34384b;
+                        border-bottom: solid 1px #00bf66;
+                        border-bottom-style: dashed;
+                        width: fit-content;
+
+                        &::after {
+                            content: "";
+                            background-size: 6px 10px;
+                            margin-left: 10px;
+                            position: absolute;
+                            margin: 3px 10px;
+                            width: 6px;
+                            height: 10px;
+                            background-image: url("../img/contacts/black.svg");
+                            background-repeat: no-repeat;
+                            -webkit-transform: rotate(90deg);
+                            -moz-transform: rotate(90deg);
+                            -o-transform: rotate(90deg);
+                            -ms-transform: rotate(90deg);
+                            transform: rotate(90deg);
+                        }
+                        &.close-filter {
+                            &::after {
+                                -webkit-transform: rotate(270deg);
+                                -moz-transform: rotate(270deg);
+                                -o-transform: rotate(270deg);
+                                -ms-transform: rotate(270deg);
+                                transform: rotate(270deg);
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(3) {
+                    height: 79vh;
+                    border: 0;
+                    overflow: auto;
+
+                    .contacts-headquarters {
+                        height: 154px;
+                        padding: 40px 40px 40px 60px;
+                        font-size: 14px;
+                        font-weight: normal;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: 1.43;
+                        letter-spacing: normal;
+                        color: #707381;
+
+                        b {
+                            color: #34384b;
+                            font-weight: 500;
+                        }
+
+                        .contacts-service-center {
+                            margin-bottom: 20px;
+                        }
+
+                        .contacts-service-address {
+                            margin-bottom: 10px;
+                        }
+
+                        .contacts-service-number {
+                            display: flex;
+                            flex-flow: row wrap;
+                            justify-content: space-between;
+                            width: 250px;
+
+                            .phone {
+                                a {
+                                    font-weight: 500;
+                                    color: #34384b;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+
+                        &:hover {
+                            background-color: #fafafa;
+                        }
+                    }
+                }
+            }
+        }
+
+        &:nth-child(2) {
+            border: solid 1px #dbdbdb;
+            background-color: blue;
+            text-align: center;
+            font-size: 35px;
+        }
+
+        &:nth-child(3) {
+            background-color: red;
+            text-align: center;
+            font-size: 35px;
+        }
+    }
+
+    .contact-block-wrapper {
+        position: relative;
+    }
+    .region-panel-filter {
+        display: none;
+        
+        .region-panel-container {
+            display: flex;
+            width: 115%;
+            background-color: #FFFFFF;
+            z-index: 999;
+            position: absolute;
+            left: -60px;
+            flex-wrap: wrap;
+        }
+        
+        .items {
+            border-bottom: solid 1px #ececec;
+            border-left: solid 1px #ececec;
+            flex: 25%;
+            font-size: 13px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.38;
+            letter-spacing: normal;
+            color: #424559;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .breadcrumb-filter {
+            flex-basis: 100%;
+            padding: 30px 20px;
+            border-top: solid 1px #ececec;
+            margin-top: 30px;
+            border-bottom: solid 1px #ececec;
+            span {
+                font-family: Roboto;
+                font-size: 13px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.38;
+                letter-spacing: normal;
+                color: #707381;
+            }
+        }
+        .close-x-button{
+            background-image: url(../img/contacts/icon-close-copy-2@3x.png);
+            width: 20px;
+            height: 20px;
+            float: right;
+            background-size: contain;
+            cursor:pointer;
+        }
+    }
+
+}
+
+/*end of parent class */
+
+/* 2560 Official Resolution*/
+
+@media (min-width: 2500px) {}
+
+/* 1920 Official Resolution*/
+
+@media (max-width: 2499px) {}
+
+/* 1600 Official Resolution*/
+
+@media (max-width: 1899px) {}
+
+/*1280 Official Resolution*/
+
+@media (max-width: 1599px) {}
+
+/* 1024 Official Resolution*/
+
+@media (max-width: 1024px) {
+    .manulife-contacts {
+        height: 100%;
+
+        .contacts-wrapper {
+            &:nth-child(1) {
+                .contacts-block {
+                    &:nth-child(1) {
+                        min-height: initial;
+                        max-height: none;
+                        height: auto;
+                        padding: 60px 50px 40px 50px;
+
+                        .contact-block-wrapper {
+                            &:nth-child(2) {
+                                margin-top: 5px;
+                            }
+
+                            .contacts-thumbnail {
+                                width: 100px;
+                                height: 100px;
+                                margin-bottom: 0;
+                            }
+
+                            .contacts-hotline {
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* 768 Official Resolution*/
+
+@media (max-width:990px) {}
+
+/* 375 Official Resolution*/
+
+@media (max-width: 759px) {
+    .manulife-contacts {
+        margin-top: 60px;
+        background-color: #f5f5f5;
+
+        .contacts-wrapper {
+            &:nth-child(1) {
+                .contacts-block {
+                    &:nth-child(1) {
+                        padding: 40px 10px;
+                        flex-direction: column !important;
+                        align-items: center;
+
+                        .contact-block-wrapper {
+                            align-items: center;
+
+                            &:nth-child(1) {
+                                .contacts-thumbnail {
+                                    width: 60px;
+                                    height: 60px;
+                                    margin-bottom: 20px;
+                                }
+
+                                .contacts-main-info {
+                                    display: block;
+                                }
+                            }
+
+                            &:nth-child(2) {
+                                .contacts-hotline {
+                                    text-align: center;
+                                    width: 235px;
+                                    height: 36px;
+                                    order: 2;
+                                    margin-bottom: 0;
+                                    padding: 12px 30px;
+                                    background-color: white;
+                                    border-radius: 30px;
+                                    font-size: 22px;
+
+                                    i {
+                                        font-weight: bold;
+                                    }
+                                }
+                            }
+
+                            .contacts-main-info {
+                                text-align: center;
+                                margin-bottom: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu/Icon/Login</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Menu/Icon/Login" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g stroke="#424559" stroke-width="2">
+            <circle id="Oval-2" cx="10" cy="10" r="9"></circle>
+            <circle id="Oval-30" cx="10" cy="8" r="2"></circle>
+            <path d="M4,16.6957888 C5.3530339,14.2319296 7.37512125,13 10.0662621,13 C12.7574029,13 14.7353155,14.3333333 16,17" id="Path-67"></path>
+        </g>
+    </g>
+</svg>

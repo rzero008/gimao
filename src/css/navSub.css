@@ -1,0 +1,240 @@
+/* Navigation sub menu css */
+.aside-category-links .sub-menu-list.show {
+  position: sticky;
+  top: 0px;
+  margin-left: 0px !important; }
+
+/* Goals submenu style */
+.sub-menu-list .submenu .goals-submenu .main-title:hover {
+  background-color: #ffffff !important;
+  border-left: transparent !important; }
+
+.sub-menu-list .submenu .goals-submenu .main-title:hover:after {
+  display: none; }
+
+.sub-menu-list .submenu .goals-submenu .main-title label {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 1.46;
+  width: 112px; }
+
+.sub-menu-list .submenu .goals-submenu .mm-listitem {
+  display: flex;
+  box-shadow: 0px -1px 0px 0px #f5f5f5;
+  border-top: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  height: 40px !important;
+  width: 100% !important; }
+  .sub-menu-list .submenu .goals-submenu .mm-listitem:hover {
+    background-color: #f5f5f5;
+    border-left: solid 6px  #00bf66; }
+  .sub-menu-list .submenu .goals-submenu .mm-listitem:hover:after {
+    content: url(../img/menu/green.svg);
+    top: 45px;
+    left: 219px; }
+
+.sub-menu-list .submenu .goals-submenu li {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #34384b; }
+  .sub-menu-list .submenu .goals-submenu li a {
+    white-space: unset !important; }
+    .sub-menu-list .submenu .goals-submenu li a:hover {
+      text-decoration: none; }
+
+/* 2560 Official Resolution*/
+/* 1920 Official Resolution*/
+/* 1600 Official Resolution*/
+/*1280 Official Resolution*/
+/* 1024 Official Resolution*/
+/* 768 Official Resolution*/
+/* 375 Official Resolution*/
+@media (max-width: 759px) {
+  .goals-submenu .main-title.mm-listitem {
+    display: none !important; }
+  .goals-submenu .mm-listitem {
+    height: 116px !important; }
+    .goals-submenu .mm-listitem:hover {
+      background-color: #ffffff !important;
+      border-left: solid 6px  #00bf66; }
+    .goals-submenu .mm-listitem:after {
+      content: url(../img/menu/black-copy-6.svg);
+      top: 57px;
+      left: 336px; }
+    .goals-submenu .mm-listitem:hover:after {
+      content: url(../img/menu/green.svg);
+      top: 57px;
+      left: 336px; }
+  .goals-submenu li a {
+    padding: 30px 48px 30px 77px !important;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal; }
+    .goals-submenu li a:hover {
+      background-color: transparent !important; } }
+
+/*end of goals submenu style*/
+/* subpage submenu style */
+.aside-category-main-links.subpage .returnMainPage {
+  padding-top: 30px;
+  padding-bottom: 36px;
+  margin-bottom: 0px; }
+  .aside-category-main-links.subpage .returnMainPage a {
+    background-size: 20px;
+    margin-left: 25px;
+    display: block;
+    position: absolute;
+    content: "";
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+    background-image: url(../img/aside/pink3xUnhoverSubMen.png);
+    background-repeat: no-repeat; }
+    .aside-category-main-links.subpage .returnMainPage a label {
+      cursor: pointer;
+      margin-left: 25px;
+      font-family: Roboto;
+      font-size: 13px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.38;
+      letter-spacing: 0.3px;
+      color: #707381; }
+      .aside-category-main-links.subpage .returnMainPage a label:hover {
+        color: #34384b; }
+    .aside-category-main-links.subpage .returnMainPage a:hover {
+      color: #34384b !important;
+      background-image: url(../img/aside/hover/pink3xSubMen.png); }
+
+.aside-category-main-links.subpage .non-active-product-category {
+  border-left: none !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-left: solid 6px #00bf66;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0; }
+  .aside-category-main-links.subpage .non-active-product-category li {
+    transition: color 0.25s ease;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 6px solid #FFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: linear-gradient(to right, #f5f5f5 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    padding-left: 24px;
+    list-style-position: inside; }
+    .aside-category-main-links.subpage .non-active-product-category li:not(:first-child) {
+      border-top: solid 1px #f5f5f5; }
+    .aside-category-main-links.subpage .non-active-product-category li:hover {
+      color: #00bf66 !important;
+      border-left: #00bf66 solid 6px; }
+    .aside-category-main-links.subpage .non-active-product-category li:after {
+      content: "";
+      background-image: url(../img/aside/hover/green@3x.png);
+      background-repeat: no-repeat;
+      position: absolute;
+      opacity: 0;
+      right: 30px;
+      -webkit-transition: all .4s;
+      transition: all .4s;
+      width: 10.4px;
+      background-size: 7px;
+      height: 12px;
+      margin-top: 3px; }
+    .aside-category-main-links.subpage .non-active-product-category li:hover {
+      /*background-color:#f5f5f5;*/
+      padding-left: 24px;
+      background-position: left bottom; }
+      .aside-category-main-links.subpage .non-active-product-category li:hover:after {
+        opacity: 1;
+        background-size: 7px;
+        display: block;
+        content: "";
+        width: 10.4px;
+        height: 12px;
+        right: 10px;
+        -webkit-transition: all .4s;
+        transition: all .4s;
+        margin-top: 3px;
+        background-image: url(../img/aside/hover/green@3x.png);
+        background-repeat: no-repeat; }
+    .aside-category-main-links.subpage .non-active-product-category li label {
+      margin-left: 0px !important; }
+
+/* Contact us nav sub */
+.sub-menu-list {
+  /* end of submenu */ }
+  .sub-menu-list .submenu {
+    /* end of mm-listview */ }
+    .sub-menu-list .submenu .mm-listview {
+      /*end of contact-block */
+      /* 3rd contact block ends here */ }
+      .sub-menu-list .submenu .mm-listview .contact-block {
+        display: block;
+        height: auto !important; }
+        .sub-menu-list .submenu .mm-listview .contact-block:first-child {
+          border-top: solid 1px #f5f5f5; }
+        .sub-menu-list .submenu .mm-listview .contact-block h3 {
+          font-family: Roboto;
+          font-size: 26px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.46;
+          letter-spacing: normal;
+          color: #00aa59;
+          margin-left: 30px; }
+          .sub-menu-list .submenu .mm-listview .contact-block h3 i {
+            font-style: italic;
+            color: #34384b; }
+      .sub-menu-list .submenu .mm-listview .contact-block:nth-child(3) {
+        background-color: #fafafa;
+        height: 100vh !important; }
+        .sub-menu-list .submenu .mm-listview .contact-block:nth-child(3) .extra-content {
+          padding-top: 20px;
+          margin-top: 20px;
+          font-family: Roboto;
+          font-size: 26px;
+          font-weight: 300;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.46;
+          letter-spacing: normal;
+          color: #34384b;
+          position: relative;
+          white-space: unset; }
+        .sub-menu-list .submenu .mm-listview .contact-block:nth-child(3) a {
+          text-align: center; }
+          .sub-menu-list .submenu .mm-listview .contact-block:nth-child(3) a button {
+            background-color: #00aa59;
+            padding: 11px 45px;
+            margin-top: 20px;
+            font-family: Roboto;
+            font-size: 12px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.86;
+            letter-spacing: normal;
+            color: #ffffff;
+            outline: 0;
+            border: 0;
+            text-align: center; }
+
+/* end of submenu list */

@@ -1,0 +1,14 @@
+/* homepage */
+main.manulife-home {
+  display: flex;
+  width: 100%;
+  margin-left: 60px; }
+
+.hero-wrapper {
+  border: solid 2px green;
+  flex: 4; }
+
+.homepage-quick-views-wrapper {
+  border: solid 2px blue;
+  flex: 1.4%;
+  width: 270px; }

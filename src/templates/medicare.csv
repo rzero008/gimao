@@ -1,0 +1,4 @@
+"region","city","branch_name","selected_days","selected_time","selected_address","company_name","phone_num","fax_num","Xcoord","Ycoord","uuid"
+"NSW","city1","Branch 1","Mon-Fri","8:30 a.m","51 Bras Basah Road #01-02C Singapore 189554","Manulife1","(+65) 298903","(+65)68338188","149.23532000","-35.35248400","67"
+"NSW","city2","Branch 2","Mon-Fri","8:30 a.m","51 Bras Basah Road #01-02C Singapore 189554","Manulife1","(+65) 2932903","(+65) 68338188","149.78224700","-30.32399600","23"
+"NSW","city3","Branch 3","Mon-Fri","8:30 a.m","51 Bras Basah Road #01-02C Singapore 189554","Manulife1","(+65) 298903","(+65) 68338188","149.83988800","-36.67403300","90"

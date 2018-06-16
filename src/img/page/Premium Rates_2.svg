@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="43px" viewBox="0 0 43 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Premium Rates_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="21" cy="18" r="11"></circle>
+    </defs>
+    <g id="Join_Us" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1280_Jouin-us_key-landing-page" transform="translate(-738.000000, -563.000000)">
+            <g id="Premium-Rates_2" transform="translate(738.000000, 563.000000)">
+                <g id="Group-15" stroke="#424559" stroke-width="2">
+                    <path d="M1,33.9976618 L1,38.3029459 C1,39.8208325 2.2487391,41.0058785 3.85687704,41.0058785 L32.1474874,41.0058785 C33.7559118,41.0058785 35.0043644,39.8210053 35.0043644,38.3029459 L35.0043644,7.62102411 L41.0765546,7.62102411 L41.0765546,3.81380957 C41.0768985,2.26591016 39.7971368,1 38.2206119,1 L10.6718143,1 C9.09537791,1 7.8158716,2.26586916 7.8158716,3.81449377 L7.8158716,33.9976618 L1,33.9976618 Z" id="Shape" fill-rule="nonzero"></path>
+                    <path d="M7,34 L29.0583658,34 C29.0604208,35.2335894 29.0604208,36.0492489 29.0583658,36.4469783 C29.0412729,39.7552112 29.8031162,41.1809239 32.9755974,40.8831589" id="Path-28"></path>
+                    <path d="M38.0542647,0.982369374 C36.852222,1.00807842 34.9934421,1.2874951 34.9934421,4.26152861 C34.9934421,6.24421762 34.9934421,7.83442772 34.9934421,9.03215892" id="Path-27"></path>
+                </g>
+                <g id="Oval-14">
+                    <use fill="#00CF70" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <circle stroke="#424559" stroke-width="2" cx="21" cy="18" r="10"></circle>
+                </g>
+                <rect id="Rectangle" fill="#424559" x="16" y="17" width="10" height="2"></rect>
+                <rect id="Rectangle" fill="#424559" transform="translate(21.000000, 18.000000) rotate(90.000000) translate(-21.000000, -18.000000) " x="16" y="17" width="10" height="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

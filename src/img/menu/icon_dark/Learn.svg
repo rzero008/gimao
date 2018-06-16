@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu/Icon/Learn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Menu/Icon/Learn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(0.000000, 1.000000)">
+            <path d="M1,1 L1,16 C1,17.1045695 1.8954305,18 3,18 L13.782751,18 L13.782751,1 L1,1 Z" id="Rectangle-19-Copy" stroke="#424559" stroke-width="2"></path>
+            <path d="M17.9491649,8 L14,8 L14,6 L19.9512536,6 L19.8910306,14.9951384 C19.8887264,17.2026459 18.0985415,18.9909632 15.8910328,18.9909632 L14.2978502,18.9909632 L14.2978502,16.9909632 L15.8910328,16.9909632 C16.9947871,16.9909632 17.8898796,16.0968046 17.8910317,14.9930508 L17.9491649,8 Z" id="Path-2-Copy" fill="#424559" fill-rule="nonzero"></path>
+            <rect id="Rectangle-20-Copy-3" fill="#424559" x="4" y="6" width="7" height="2"></rect>
+            <rect id="Rectangle-20-Copy-4" fill="#424559" x="4" y="10" width="7" height="2"></rect>
+        </g>
+    </g>
+</svg>
